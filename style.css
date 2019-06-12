@@ -18,6 +18,7 @@ img {
 p {
     font-family: 'Noto Sans HK', sans-serif;
     font-size: 1rem;
+    line-height: 2rem;
 }
 
 h1 {
@@ -38,6 +39,11 @@ h3 {
     font-size: 2.5rem;
     font-family: 'Abril Fatface', cursive;
     letter-spacing: 2px;
+}
+
+h4 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5rem;
 }
 
 a {
@@ -374,7 +380,11 @@ header {
 }
 
 
-/*    American magaxine    */
+
+
+/***    American magaxine    ***/
+
+
 
 #american_magazine {
     display: flex;
@@ -387,19 +397,19 @@ header {
     height: 250px;
 }
 
-.american_tekst {
+.top_tekst {
     border: solid 1px black;
     text-align: center;
     width: 450px;
     height: 160px;
 }
 
-.american_magazine_tekst {
+.tema_tekst {
     display: flex;
     justify-content: center;
 }
 
-.american_magazine_overskrift {
+.top_overskrift {
     height: 100px;
     width: 100%;
     display: flex;
@@ -422,6 +432,7 @@ header {
 .p_american {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .overskrift_dokumentation {
@@ -440,7 +451,7 @@ header {
     display: flex;
     flex-wrap: wrap;
 
-    width: 300px;
+    width: 800px;
     margin: 10px;
     padding: 20px;
     background-color: #eae8e6;
@@ -473,4 +484,75 @@ header {
 
     background-color: red;
     margin-top: 30px;
+}
+
+
+/**   sex og samfund   **/
+
+
+#om_sexogsamfund {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    height: 300px;
+}
+
+.text_sexogsamfund {
+    width: 400px;
+}
+
+.p_sexogsamfund {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#dokumentation_sexogsamfund {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+
+.dokumentation_tekst_sexogsamfund {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #eae8e6;
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    padding: 20px;
+    align-content: flex-start;
+}
+
+.dokumentation_tekst_sexogsamfund1 {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #eae8e6;
+    align-content: flex-start;
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#link_dokumentation {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.dokumentatoinssite {
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+    width: 300px;
 }
