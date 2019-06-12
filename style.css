@@ -556,3 +556,15 @@ header {
     text-align: center;
     width: 300px;
 }
+
+#footer {
+    background-color: #606060;
+    color: #d6d6d6;
+    height: 70px;
+    justify-content: center;
+}
+
+.footer_tekst {
+    display: flex;
+    margin-left: 50px;
+}
