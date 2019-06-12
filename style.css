@@ -11,6 +11,10 @@ body {
     background-color: #f5f5f5;
 }
 
+img {
+    width: 100%;
+}
+
 p {
     font-family: 'Noto Sans HK', sans-serif;
     font-size: 1rem;
@@ -122,7 +126,7 @@ header {
 /*****om*****/
 
 
-#om {
+#top {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -133,7 +137,7 @@ header {
     height: 250px
 }
 
-.about_me {
+.top_boks {
     border: solid 1px black;
     height: 150px;
     width: 450px;
@@ -378,7 +382,7 @@ header {
     justify-content: center;
     align-content: center;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     background-color: #c6c6c6;
     height: 250px;
 }
@@ -386,11 +390,18 @@ header {
 .american_tekst {
     border: solid 1px black;
     text-align: center;
+    width: 450px;
+    height: 160px;
+}
+
+.american_magazine_tekst {
+    display: flex;
+    justify-content: center;
 }
 
 .american_magazine_overskrift {
     height: 100px;
-    width: 450px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -411,4 +422,55 @@ header {
 .p_american {
     display: flex;
     flex-wrap: wrap;
+}
+
+.overskrift_dokumentation {
+    width: 100%;
+    text-align: center;
+}
+
+#dokumentation_american {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+
+.dokumentation_tekst {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #eae8e6;
+}
+
+.dokumentation_tekst1 {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #eae8e6;
+}
+
+.dokumentation_tekst2 {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #eae8e6;
+}
+
+
+.dokumentation_billede {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: red;
+    margin-top: 30px;
 }
