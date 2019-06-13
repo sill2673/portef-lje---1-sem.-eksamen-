@@ -113,6 +113,28 @@ header {
     text-align: center;
 }
 
+/***    top boks    ***/
+
+
+#top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: #c7afaf;
+    height: 250px
+}
+
+.top_boks {
+    border: solid 1px black;
+    height: 150px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 /*****pil*****/
 
@@ -129,28 +151,8 @@ header {
 }
 
 
-/*****om*****/
+/*****    om    *****/
 
-
-#top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    background-color: #c6c6c6;
-    height: 250px
-}
-
-.top_boks {
-    border: solid 1px black;
-    height: 150px;
-    width: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
 #selvportraet {
     display: flex;
@@ -161,24 +163,17 @@ header {
     margin-bottom: 30px;
 }
 
-/*****OPGAVER*****/
-
-#opgaver {
+#om_mig {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    height: 150px;
+    justify-content: center;
 }
 
-
-.opgaver_section {
-    border: solid 1px black;
-    height: 150px;
-    width: 450px;
+.om_mig_tekst {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-
+    text-align: center;
+    width: 600px;
+    margin-top: 30px;
 }
 
 
@@ -287,25 +282,6 @@ header {
 
 /*****portfolio*****/
 
-#forside {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    background-color: #c6c6c6;
-    height: 250px
-}
-
-.portfolio {
-    border: solid 1px black;
-    height: 150px;
-    width: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
 #opgaver {
     display: flex;
@@ -557,14 +533,39 @@ header {
     width: 300px;
 }
 
+
+
+/***    footer   ***/
+
+
 #footer {
     background-color: #606060;
     color: #d6d6d6;
     height: 70px;
-    justify-content: center;
+    display: flex;
+    margin-top: 100px;
 }
 
 .footer_tekst {
     display: flex;
     margin-left: 50px;
+    width: 200px;
+    height: 70px;
+    justify-content: center;
+    padding: 2px;
+}
+
+.footer_billede {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.footer_billede_tekst {
+    padding: 2px;
+    font-size: 0.5px;
+    margin-left: 15px;
+    margin-right: 300px;
 }
