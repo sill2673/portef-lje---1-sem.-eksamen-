@@ -23,6 +23,7 @@ p {
 
 h1 {
     font-family: 'Abril Fatface', cursive;
+
     letter-spacing: 4px;
     font-size: 2rem;
 }
@@ -167,6 +168,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 10px;
 }
 
 .om_mig_tekst {
@@ -420,6 +422,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
+    margin-bottom: 50px;
+    width: 100%;
     justify-content: center;
 }
 
@@ -453,15 +457,20 @@ header {
     background-color: #eae8e6;
 }
 
-
-.dokumentation_billede {
+.dokumentation_tekst2 {
     display: flex;
     flex-wrap: wrap;
 
-    background-color: red;
-    margin-top: 30px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #eae8e6;
 }
 
+.american_magazine_site embed {
+    width: 100%;
+    height: 650px;
+}
 
 /**   sex og samfund   **/
 
@@ -471,7 +480,7 @@ header {
     flex-wrap: wrap;
 
     justify-content: center;
-    height: 300px;
+    height: 350px;
 }
 
 .text_sexogsamfund {
@@ -525,6 +534,11 @@ header {
     margin-bottom: 50px;
 }
 
+.sexogsamfund_spil embed {
+    height: 650px;
+    width: 100%;
+}
+
 .dokumentatoinssite {
     display: flex;
     flex-wrap: wrap;
@@ -535,6 +549,86 @@ header {
 
 
 
+/***    dekadent   ***/
+
+
+#dekadent {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.dekadent_om {
+    display: flex;
+    width: 450px;
+    text-align: center;
+}
+
+#dekandent_forloeb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dekadent_tekst {
+    width: 300px;
+    height: 450px;
+    background-color: #eae8e6;
+    padding: 20px;
+    margin: 10px;
+}
+
+.dekadent_tekst1 {
+    width: 300px;
+    height: 450px;
+    background-color: #eae8e6;
+    padding: 20px;
+    margin: 10px;
+}
+
+.dekadent_tekst2 {
+    width: 300px;
+    height: 450px;
+    background-color: #eae8e6;
+    padding: 20px;
+    margin: 10px;
+}
+
+#dekadent_dokumenatation {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.dekadent_dokumentation_tekst {
+    display: flex;
+    width: 300px;
+    text-align: center;
+}
+
+
+/***    Kea Life    ***/
+
+
+#kea_life {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.kea_life_tekst {
+    padding: 20px;
+    width: 390px;
+}
+
+
 /***    footer   ***/
 
 
@@ -542,30 +636,33 @@ header {
     background-color: #606060;
     color: #d6d6d6;
     height: 70px;
-    display: flex;
-    margin-top: 100px;
 }
 
 .footer_tekst {
-    display: flex;
-    margin-left: 50px;
-    width: 200px;
-    height: 70px;
-    justify-content: center;
-    padding: 2px;
+    width: 100%;
+    padding: 24px;
 }
 
-.footer_billede {
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-self: center;
-    margin-left: 50px;
+@media only screen and (min-width: 401px) {
+    #splash {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(billeder/splash.png);
+        background-position: 36% 0%;
+        background-size: cover;
+        max-width: none;
+        margin-top: 0;
+    }
 }
 
-.footer_billede_tekst {
-    padding: 2px;
-    font-size: 0.5px;
-    margin-left: 15px;
-    margin-right: 300px;
+@media only screen and (min-width: 800px) {
+    #splash {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(billeder/splash.png);
+        background-position: 36% 0%;
+        background-size: cover;
+        max-width: none;
+        margin-top: 0;
+    }
 }
