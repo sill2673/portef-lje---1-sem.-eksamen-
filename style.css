@@ -40,6 +40,7 @@ h3 {
     font-size: 3rem;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 0.5px;
+    text-align: center;
 }
 
 h4 {
@@ -121,6 +122,16 @@ header {
     text-align: center;
 }
 
+@media only screen and (max-width: 1000px) {
+    .splash_tekst {
+        height: 80%;
+    }
+
+    .splash_boks {
+        width: 400px;
+    }
+}
+
 /***    top boks    ***/
 
 
@@ -130,6 +141,7 @@ header {
     justify-content: center;
     align-content: center;
     margin-top: 30px;
+    margin-bottom: 30px;
     background-color: #c7afaf;
     height: 350px
 }
@@ -144,6 +156,30 @@ header {
     margin: 5px;
 }
 
+/**/
+
+.top_tekst {
+    border: solid 1px black;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+}
+
+.tema_tekst {
+    display: flex;
+    justify-content: center;
+}
+
+.top_overskrift {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
 /*****pil*****/
 
 #pil {
@@ -153,20 +189,11 @@ header {
 }
 
 .pil_ned {
-    height: 40px;
-    width: 50px;
-    margin-top: 50px;
-}
-
-
-/*
-.pil_ned {
     position: absolute;
     left: 50%;
     bottom: 0;
-    margin-top: -55px;
     margin-left: -25px;
-    height: 20px;
+    height: 90px;
     width: 50px;
     -webkit-animation: bounce 1.5s infinite;
 }
@@ -184,7 +211,6 @@ header {
         bottom: 0;
     }
 }
-*/
 
 /*****    om    *****/
 
@@ -209,7 +235,8 @@ header {
     display: flex;
     text-align: center;
     width: 600px;
-    margin-top: 30px;
+    margin-top: 250px;
+    margin-bottom: 30px;
 }
 
 
@@ -322,7 +349,7 @@ header {
 #opgaver {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 250px;
     justify-content: center;
 }
 
@@ -335,7 +362,6 @@ header {
 
 .opgave_text h2 {
     border-bottom: solid 1px;
-    text-align: center;
 }
 
 /**/
@@ -347,23 +373,86 @@ header {
 
     height: 500px;
     width: 900px;
-    margin-bottom: -100px
+    margin-bottom: -100px;
+    position: relative;
+}
+
+.opgave1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 500px;
+    width: 900px;
+    margin-bottom: -100px;
+    position: relative;
+}
+
+.opgave2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 500px;
+    width: 900px;
+    margin-bottom: -100px;
+    position: relative;
+}
+
+.opgave3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 500px;
+    width: 900px;
+    margin-bottom: -100px;
+    position: relative;
 }
 
 .opgave_billede {
     display: flex;
     width: 400px;
     height: 400px;
+    position: relative;
 }
 
 .opgave_text {
     flex-wrap: wrap;
     display: flex;
     text-align: center;
+    justify-content: space-around;
 
     width: 400px;
     height: 400px;
     padding: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .opgave_text {
+        position: absolute;
+        bottom: 20px;
+        right: 250px;
+        background-color: rgba(175, 156, 173, 0.34);
+        color: black;
+    }
+
+    .opgave_billede {
+        display: none;
+    }
+
+    .opgave1 {
+        margin: 50px;
+    }
+
+    .opgave2 {
+        margin: 50px;
+    }
+
+    .opgave3 {
+        margin: 50px;
+    }
+
 }
 
 /**/
@@ -418,32 +507,13 @@ header {
     height: 250px;
 }
 
-.top_tekst {
-    border: solid 1px black;
-    text-align: center;
-    width: 450px;
-    height: 160px;
-}
-
-.tema_tekst {
-    display: flex;
-    justify-content: center;
-}
-
-.top_overskrift {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 #om_american {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     margin-bottom: 50px;
+    margin-top: 250px;
 }
 
 .text_american {
@@ -528,6 +598,7 @@ header {
 
 .text_sexogsamfund {
     width: 400px;
+    margin-top: 250px;
 }
 
 .p_sexogsamfund {
@@ -539,7 +610,8 @@ header {
 #dokumentation_sexogsamfund {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 20px;
+    margin-top: 150px;
     justify-content: center;
 }
 
@@ -578,7 +650,7 @@ header {
 }
 
 .sexogsamfund_spil embed {
-    height: 650px;
+    height: 700px;
     width: 100%;
 }
 
@@ -600,7 +672,7 @@ header {
     width: 100%;
     height: 200px;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 .dekadent_om {
@@ -653,6 +725,11 @@ header {
     text-align: center;
 }
 
+.dekadent_redesign_site embed {
+    width: 100%;
+    height: 650px;
+}
+
 
 /***    Kea Life    ***/
 
@@ -662,8 +739,8 @@ header {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    margin-top: 70px;
-    margin-bottom: 50px;
+    margin-top: 250px;
+    margin-bottom: 20px;
 }
 
 .kea_life_tekst {
@@ -671,12 +748,39 @@ header {
     width: 390px;
 }
 
+#kea_life_om {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
 
+.kea_life_col {
+    display: flex;
+    flex-wrap: wrap;
 
-/**/
+    background-color: #eae8e6;
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    padding: 20px;
+    align-content: flex-start;
+}
 
+.kea_life_col1 {
+    display: flex;
+    flex-wrap: wrap;
 
+    background-color: #eae8e6;
+    align-content: flex-start;
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    padding: 20px;
+}
 
 /***    footer   ***/
 
