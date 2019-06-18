@@ -1,4 +1,4 @@
-#splash {
+splash {
     width: 100vw;
     height: 100%;
     background-image: url(billeder/splash.png);
@@ -410,6 +410,17 @@ header {
     position: relative;
 }
 
+.opgave4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 500px;
+    width: 900px;
+    margin-bottom: -100px;
+    position: relative;
+}
+
 .opgave_billede {
     display: flex;
     width: 400px;
@@ -453,6 +464,10 @@ header {
         margin: 50px;
     }
 
+    .opgave4 {
+        margin: 50px;
+    }
+
 }
 
 /**/
@@ -485,10 +500,19 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: -100px;
     height: 500px;
     width: 900px;
     flex-direction: row-reverse;
+}
+
+.opgave4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 900px;
 }
 
 
@@ -781,6 +805,62 @@ header {
     margin: 10px;
     padding: 20px;
 }
+
+
+/***    redesign af fronter   ***/
+
+#redesign_fronter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 150px;
+}
+
+.om_redesign_fronter {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    width: 400px;
+    height: 150px;
+}
+
+.redesign_fronter_site {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    margin-top: 50px;
+}
+
+.redesign_fronter_site_text {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    margin-bottom: 30px;
+    /*    background-color: aqua;*/
+}
+
+.redesign_fronter_embed {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 450px;
+}
+
+.redesign_fronter_site embed {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 1000px;
+    width: 100%;
+}
+
 
 /***    footer   ***/
 
