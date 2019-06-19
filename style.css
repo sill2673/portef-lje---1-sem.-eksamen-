@@ -421,6 +421,17 @@ header {
     position: relative;
 }
 
+.opgave5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 500px;
+    width: 900px;
+    margin-bottom: -100px;
+    position: relative;
+}
+
 .opgave_billede {
     display: flex;
     width: 400px;
@@ -468,6 +479,10 @@ header {
         margin: 50px;
     }
 
+    .opgave5 {
+        margin: 50px;
+    }
+
 }
 
 /**/
@@ -510,10 +525,21 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: -100px;
     height: 500px;
     width: 900px;
 }
+
+.opgave5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 900px;
+    flex-direction: row-reverse;
+}
+
 
 
 /***    American magaxine    ***/
@@ -860,6 +886,44 @@ header {
     height: 1000px;
     width: 100%;
 }
+
+
+/***    interview    ***/
+
+#interview {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    justify-content: center;
+}
+
+.om_interview {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 200px;
+    width: 500px;
+    height: 450px;
+    padding: 30px;
+    background-color: #eae8e6;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.interview embed {
+    width: 500px;
+    height: 282px
+}
+
 
 
 /***    footer   ***/
